@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<obprofiles xmlns="http://www.logitech.com/Cassandra/2013.1/OnboardProfile">
+  <profile name="">
+    <device powermode="1" buttoncount="11" anglesnapping="0" reportrate="125" model="Logitech.Gaming.Mouse.G602">
+      <dpitable defaultindex="0" shift="500" currentindex="0">
+        <dpi y="500" x="500"/>
+        <dpi y="0" x="0"/>
+        <dpi y="0" x="0"/>
+        <dpi y="0" x="0"/>
+        <dpi y="0" x="0"/>
+      </dpitable>
+    </device>
+    <buttons>
+      <button name="左クリック" number="1">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="leftclick"/>
+        </mousefunction>
+      </button>
+      <button name="右クリック" number="2">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="rightclick"/>
+        </mousefunction>
+      </button>
+      <button name="中央クリック" number="3">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="middleclick"/>
+        </mousefunction>
+      </button>
+      <button name="Ctrl + タブ" number="4">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="TAB"/>
+          <modifier value="LCTRL"/>
+        </keystroke>
+      </button>
+      <button name="進む" number="5">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="forward"/>
+        </mousefunction>
+      </button>
+      <button name="戻る" number="6">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="back"/>
+        </mousefunction>
+      </button>
+      <button name="Ctrl + アップ" number="7">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="UP"/>
+          <modifier value="LCTRL"/>
+        </keystroke>
+      </button>
+      <button name="Ctrl + 右" number="8">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="RIGHT"/>
+          <modifier value="LCTRL"/>
+        </keystroke>
+      </button>
+      <button name="Ctrl + 左" number="9">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="LEFT"/>
+          <modifier value="LCTRL"/>
+        </keystroke>
+      </button>
+      <button name="左 Cmd + W" number="10">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="W"/>
+          <modifier value="LGUI"/>
+        </keystroke>
+      </button>
+      <button name="左 Cmd + R" number="11">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="R"/>
+          <modifier value="LGUI"/>
+        </keystroke>
+      </button>
+    </buttons>
+  </profile>
+</obprofiles>
